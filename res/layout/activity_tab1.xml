@@ -1,0 +1,438 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    tools:context="com.example.myfirstapp.Tab1Activity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:textSize="4pt" >
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/row1"
+                    android:layout_height="wrap_content"
+                    android:text="See more Details on Zillow" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#F7F7FF"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/row2"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:textColorLink="#08088A" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/proptyp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Property Type:" />
+
+                <TextView
+                    android:id="@+id/proptyp1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#F7F7FF"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/yrbt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Year Built:" />
+
+                <TextView
+                    android:id="@+id/yrbt1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/ls"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Lot Size:" />
+
+                <TextView
+                    android:id="@+id/ls1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#F7F7FF"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/fa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Finished Area:" />
+
+                <TextView
+                    android:id="@+id/fa1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/ba:"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Bathrooms:" />
+
+                <TextView
+                    android:id="@+id/ba1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#F7F7FF"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/be"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Bedrooms:" />
+
+                <TextView
+                    android:id="@+id/be1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/taxyr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Tax Assessment Year:" />
+
+                <TextView
+                    android:id="@+id/taxyr1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#F7F7FF"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/taxass"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Tax Assessment :" />
+
+                <TextView
+                    android:id="@+id/taxass1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/lastsoldpr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Last Sold Price :" />
+
+                <TextView
+                    android:id="@+id/lastsoldpr1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#F7F7FF"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/lastsolddt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Last Sold Date:" />
+
+                <TextView
+                    android:id="@+id/lastsolddt1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/zestprop"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+
+                <TextView
+                    android:id="@+id/zestpropval1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#F7F7FF"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/thirtydaysoverallchange"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="30 Days Overall Change:" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/oc1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingTop="6dp" />
+
+                    <ImageView
+                        android:id="@+id/zimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingTop="6dp"/>
+
+                    <TextView
+                        android:id="@+id/thirtydaysoverallchange1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/alltimeprop"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="All Time Property Range:" />
+
+                <TextView
+                    android:id="@+id/alltimeproplowhigh"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#F7F7FF"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/restprop"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+
+                <TextView
+                    android:id="@+id/restpropval1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/thirtydaysrentchange"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="30 Days Rent Change:" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/rent_pic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingTop="6dp" />
+
+                    <TextView
+                        android:id="@+id/thirtydaysrentchange1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#F7F7FF"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp" >
+
+                <TextView
+                    android:id="@+id/alltimerent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="All Time Rent Range:" />
+
+                <TextView
+                    android:id="@+id/alltimerentlowhigh"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.5" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/zillow_tnc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="\u00A9 Zillow, Inc., 2006-2014."
+        android:textColorLink="#000000" />
+
+    <TextView
+        android:id="@+id/zillow_tnc2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textColorLink="#000000" />
+
+    <TextView
+        android:id="@+id/zillow_tnc3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textColorLink="#000000" />
+
+</LinearLayout>
